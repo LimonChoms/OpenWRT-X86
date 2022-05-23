@@ -20,10 +20,10 @@
 # git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
 
 # 添加 SSR+
-git clone https://github.com/fw876/helloworld package/helloworld
-for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
-  svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
-done
+# git clone https://github.com/fw876/helloworld package/helloworld
+# for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
+#   svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
+# done
 
 # 添加OpenClash
 git clone https://github.com/vernesong/OpenClash package/OpenClash
