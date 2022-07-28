@@ -26,7 +26,7 @@
 # done
 
 # 添加OpenClash
-git clone https://github.com/vernesong/OpenClash package/OpenClash
+git clone --depth=1 https://github.com/vernesong/OpenClash package/OpenClash
 
 # 添加luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
