@@ -13,6 +13,5 @@ set network.@device[3].name='eth2'
 set network.@device[4]='device'
 set network.@device[4].name='eth3'
 set network.wan.device='eth0'
-set network.wan6.device='@wan'
 commit network
 EOI
