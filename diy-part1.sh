@@ -30,3 +30,6 @@ git clone --depth=1 https://github.com/vernesong/OpenClash package/OpenClash
 
 # 添加luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+
+# 添加luci-theme-design
+git clone --depth=1 https://github.com/gngpp/luci-theme-design package/luci-theme-design
