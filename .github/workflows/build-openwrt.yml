@@ -16,9 +16,9 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: main
-# REPO_BRANCH: openwrt-23.05
-# BRANCH_TAG: v23.05.5
+#  REPO_BRANCH: main
+  REPO_BRANCH: openwrt-24.10
+#  BRANCH_TAG: v23.05.5
   BRANCH_TAG: v24.10.2
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
