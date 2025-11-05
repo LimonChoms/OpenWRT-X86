@@ -11,7 +11,7 @@
 #
 
 # 修复rust编译错误
-# sed -i 's/download-ci-llvm=true/download-ci-llvm=false/g' feeds/packages/lang/rust/Makefile
+sed -i 's/download-ci-llvm=true/download-ci-llvm=false/g' package/feeds/packages/rust/Makefile
 
 # 修改默认 IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
