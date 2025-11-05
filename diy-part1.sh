@@ -33,6 +33,3 @@ git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-t
 
 # 添加luci-theme-design
 # git clone --depth=1 https://github.com/gngpp/luci-theme-design package/luci-theme-design
-
-# 修复rust编译错误
-# sed -i 's/download-ci-llvm=true/download-ci-llvm=false/g' feeds/packages/lang/rust/Makefile
